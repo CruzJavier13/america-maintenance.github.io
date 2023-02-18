@@ -662,13 +662,19 @@ body {
     }
 
     .footer__inputs{
-        flex-wrap: wrap;
+        flex-wrap: wrap;  
+    }
+    .footer__inputs input{
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
     }
 
-    .footer__input{
+    .footer__text{
         flex-basis: 100%;
         margin: 0;
         margin-bottom: 16px;
+        height: 4.5em;
     }
 
     .footer__submit{
